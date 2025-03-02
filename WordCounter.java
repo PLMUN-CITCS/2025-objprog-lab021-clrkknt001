@@ -5,7 +5,7 @@ public class WordCounter {
 
 	public static void main(String[] args) {
 		
-		String sentence = getSentenceInput();
+	String sentence = getSentenceInput();
         String arr[] = countWords(sentence);
         System.out.println("The sentence has " + arr.length + " words.");
 
